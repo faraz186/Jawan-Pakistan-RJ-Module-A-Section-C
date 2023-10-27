@@ -1,0 +1,56 @@
+/*                  Universal Selector                  */
+*{
+    color: red;
+} 
+
+/*                   Type Selector                */
+
+h1{
+    color: red;
+    background-color: cadetblue;
+}
+
+p{
+    color: green;
+}
+
+/*                  Class Selector                 */
+
+.para{
+    color: blue;
+}
+
+/*                   Class Selector               */
+
+.para1{
+    background-color: lightcyan;
+}
+
+/*                  Descendant Selector                 */
+
+h1 h4{
+    color: blue;
+}
+
+
+/*                  Child Selector                */
+
+ul>li{
+    color: green;
+}
+
+/*                  Tag Selector                    */
+p {
+    color: chocolate;
+}
+
+/*           Adjacent Sibling Selector            */
+
+h1+p{
+    color: orangered;
+}
+
+/*           General Sibling Selector            */
+h1~p{
+    color:#FB4D6F;
+}
