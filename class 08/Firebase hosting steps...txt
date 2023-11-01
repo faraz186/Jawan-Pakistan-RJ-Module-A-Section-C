@@ -6,8 +6,8 @@ Firebase hosting steps..
 4) then you download node js 
 5) move on your deskhtop screen and search cmd
 6) npm install --global firebase-tools
-7) firebase --version
+7) *firebase --version* to check the current version of firebase
 8) then you move on your folder and open cmd
-9) then you write command firebase login
-10) firebase init
-11) firebase deploy
+9) then you write command *firebase login*
+10) then write command *firebase init* to initialize your project
+11) then finally run command *firebase deploy* to host your website
