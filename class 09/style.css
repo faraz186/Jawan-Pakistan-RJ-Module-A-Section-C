@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+p span{
+    color: red;
+    font-size: 45px;
+}
+
+
+p:first-line{
+    color: blue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+a{
+    color: red;
+}
+
+a:visited{
+    color: brown;
+}
+
+a:link{
+    color: green;
+}
+
+.btn:hover{
+    background-color: yellowgreen;
+    color: white;
+}
+
+input{
+    background-color: red;
+}
+
+p[class]{
+    color: red;
+}
+
+p[class ="para"]{
+    color: blue;
+}
+
+
+img{
+    width: 100%;
+}
+
+
+.main{
+    border: 12px outset green;
+    border-top-color: red;
+    border-bottom-color: blue;
+    width: 300px;
+    max-height: 200px;
+    overflow: hidden;
+}
+
+.container{
+    border: 5px solid black;
+    margin: 40px 0 0 10px;
+}
+
+.container p{
+    border: 5px solid red;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding: 10px 20px 10px 20px;
+
+}
