@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ 
+ul>li{
+    background-color: lightgreen;
+    margin: 20px;
+    padding: 10px;
+    display: inline-block;
+}
+
+.hide{
+    visibility: visible;
+}
+
+.icon{
+    color: red;
+    font-size: 30px;
+}
+
+.main{
+    border: 2px solid green;
+    width: 40%;
+    margin: 60px auto 60px auto;
+}
+
+div{
+    border: 5px solid red;
+    width: 600px;
+    margin: 15px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 5px 7px 6px red;
+}
+
+div p{
+    text-shadow: 5px 10px 2px black;
+    padding: 20px;
+}
