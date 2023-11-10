@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 500px;
+    margin: 50px auto 50px auto;
+}
+
+p{
+    border: 5px solid red;
+    margin-left: -50px;
+    margin-top: -150px;
+    padding: 25px;
+}
+
+.list{
+    background-color: aqua;
+    padding: 15px;
+}
+
+.main img{
+    width: 300px;
+    margin-left: 500px;
+}
+
+ul{
+    margin-left: 1000px;
+}
+    
+li{
+    display: inline;
+    padding-right: 20px;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container{
+    border: 5px solid blue;
+    margin: 20px;
+}
+
+p{
+    display: inline;
+}
