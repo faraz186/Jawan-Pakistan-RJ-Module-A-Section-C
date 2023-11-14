@@ -1,0 +1,102 @@
+/* *{
+    margin: 0;
+    padding:0;
+}
+
+ul{
+    background-color: black;
+    padding: 20px;
+}
+
+.heading{
+    font-size: 35px;
+    margin-right: 90px;
+}
+
+.heading span{
+    color: red;
+}
+
+.plus{
+    color: red;
+}
+li{
+    color: white;
+    display: inline;
+    margin-left: 65px;
+    font-size: 20px;
+} */
+
+/* ol{
+    list-style: outside lower-roman;
+} */
+
+/* table{
+    width: 600px;
+    border: 2px solid black;
+    border-spacing: 5px 10px;
+}
+
+tr{
+    background-color: aquamarine;
+}
+
+tr:hover{
+    background-color: gray;
+}
+
+th,td{
+
+    border: 2px solid black;
+    padding: 10px;
+} */
+
+input{
+    padding: 5px;
+    margin: 5px;
+    font-size: 14px;
+    font-family: monospace;
+    border-color: red;
+    border-radius: 5px;
+}
+
+input.email{
+    background-image: url("https://png.pngtree.com/png-vector/20190429/ourmid/pngtree-mail-icon-vector-illustration-in-line-style-for-any-purpose-png-image_996816.jpg");
+    background-size: 30px;
+    background-repeat: no-repeat;
+    padding-left: 30px;
+}
+
+input.password{
+    background-image: url("https://icons.veryicon.com/png/o/miscellaneous/face-monochrome-icon/password-76.png");
+    background-size: 26px;
+    background-repeat: no-repeat;
+    padding-left: 30px;
+}
+
+button{
+    background-color: royalblue;
+    color: white;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+fieldset{
+    width: 300px;
+    border-radius: 6px;
+    border-color: aquamarine;
+    text-align: center;
+    background-image: url("https://img.freepik.com/free-photo/beautiful-view-greenery-bridge-forest-perfect-background_181624-17827.jpg?size=626&ext=jpg&ga=GA1.1.1880011253.1699833600&semt=ais");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+legend{
+    background-color: blueviolet;
+    padding: 3px;
+    border-radius: 5px;
+    text-align: center;
+}
