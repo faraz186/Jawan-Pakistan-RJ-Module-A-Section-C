@@ -1,4 +1,4 @@
-/* *{
+*{
     margin: 0;
     padding:0;
 }
@@ -25,13 +25,13 @@ li{
     display: inline;
     margin-left: 65px;
     font-size: 20px;
-} */
+}
 
-/* ol{
+ol{
     list-style: outside lower-roman;
-} */
+}
 
-/* table{
+table{
     width: 600px;
     border: 2px solid black;
     border-spacing: 5px 10px;
@@ -49,7 +49,7 @@ th,td{
 
     border: 2px solid black;
     padding: 10px;
-} */
+}
 
 input{
     padding: 5px;
