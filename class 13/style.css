@@ -1,0 +1,72 @@
+@import url('style2.css');
+body{
+    height: 600px;
+}
+.main{
+    background-image: url("https://i.imgur.com/LdbVDVP.png");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 300px;
+}
+
+.main2{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 10%, rgba(148,187,233,1) 100%);
+}
+
+.main p{
+    color: white;
+    text-align: center;
+}
+/* .img1{
+    text-align: center;
+    display: inline-block;
+}
+.img1 img{
+    width: 150px;
+} */
+
+/* body{
+    background-color: rgb(142, 142, 222);
+    height: 600px;
+} */
+/* 
+.black{
+    background-color: rgb(106, 98, 98);
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+.white{
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+img{
+    position: fixed;
+    top: 0px;
+} */
+
+/* .div1{
+    background-color: green;
+    width: 200px;
+    float: left;
+}
+
+.div2{
+    background-color: orange;
+    width: 100px;
+    float: left;
+
+}
+
+p{
+    clear: both;
+} */
+
+.para1{
+    color: red;
+}
