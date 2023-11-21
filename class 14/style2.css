@@ -1,0 +1,6 @@
+.para{
+    color: red;
+    border: 2px dashed blue;
+    width: 500px;
+    border-right: none;
+}
