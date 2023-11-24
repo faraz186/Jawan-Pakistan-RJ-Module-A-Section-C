@@ -1,0 +1,118 @@
+ *{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: cyan;
+}
+h1{
+    text-align: center;
+    background-color: red;
+    color: white;
+}
+
+p{
+    text-align: center;
+    border: 2px groove black;
+    width: 500px;
+    margin: auto;
+}
+
+img{
+    width: 700px;
+    margin-top: 25px;
+    margin-left: 20%;
+}
+
+
+/* ***************************Mobile Screen********************************* */
+
+
+@media only screen and (max-width:480px)
+{
+    body{
+        background-color: lightgray;
+    }
+
+    h1{
+        background-color: blue;
+        color: white;
+    }
+
+    p{
+        width: 460px;
+        margin-top: 20px;
+        border: 5px solid black;
+    }
+
+    img{
+        width: 300px;
+    }
+}
+
+/* ***************************Tablet Screen********************************* */
+
+
+@media only screen and (max-width:768px)
+{
+    h1{
+        background-color: rgb(255, 125, 125) !important;
+        color: white;
+    }
+
+    p{
+        width: 460px;
+        margin-top: 20px;
+        border: 5px solid black !important;
+    }
+
+    img{
+        width: 300px;
+    }
+}
+
+.main{
+    display: flex;
+    align-content: space-evenly;
+    width: 500px;
+    flex-wrap: wrap;
+    background-color: rgb(135, 135, 7);
+    height: 1500px;
+}
+.divone{
+    background-color: rgb(123, 92, 33);
+    width: 300px;
+    color: white;
+    height: 250px;
+    font-size: 50px
+    
+}
+
+.divtwo{
+    background-color: rgb(145, 7, 7);
+    width: 300px;
+    color: white;
+    align-self: flex-end;
+    height: 100px;
+    font-size: 50px
+    
+}
+
+.divthree{
+    background-color: rgb(25, 25, 103);
+    width: 300px;
+    color: white;
+    height: 250px;
+    font-size: 50px
+    
+}
+
+.divfour{
+    background-color: rgb(11, 93, 11);
+    width: 300px;
+    align-self: center;
+    color: white;
+    height: 100px;
+    font-size: 50px
+    
+} 
